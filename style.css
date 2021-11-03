@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  font-weight: 100;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  font-size: 22px;
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18px;
+}
+div {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #E0D9CF;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  border-radius: 4px;
+  padding: 0px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+.card {
+  padding: 10px;
+  border-radius: 12px;
+  margin: 0;
+  width: 400px;
+  height: 25%;
+  border: 1px solid black;
+  box-shadow: 0;
+  font-size: 2em;
+}
+
+#img_self {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  background-color: white;
+  border: 2px solid #black;
+  text-align: center;
+}
+
+
+#vignette {
+  border-radius: 50%;
+  height: 100%;
+  width: auto;
+  border-image: space;
+  border: 2px solid #FCAF70;
+  transition: 1s ease-in-out;
+}
+
+#vignette:hover {
+  transform: rotate(1turn);
+}
+
+.me {
+  border: none;
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+#wagon_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  color: black;
+  font-size: 2em;
+  border: none;
+  position: relative;
+}
+
+#wagon_logo {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  transition: 1s ease-in-out;
+  transform: rotate(-25deg);
+}
+#wagon_logo:hover {
+  transform: rotate(15deg);
+  transform: translateX(320px);
+}
+
+
+#hobbies_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  color: black;
+  font-size: 1.2em;
+  border: none;
+}
+
+#social_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  color: #888;
+  border: none;
+}
+
+.fas {
+  transition: 0.2s 80ms ease-in-out;
+}
+
+.fab {
+  transition: 0.2s 80ms ease-in-out;
+}
+
+.fas:hover, fab:hover {
+  font-size: 1.8em;
+}
+
+.fab:hover {
+  font-size: 1.8em;
+}
+
+.fa-cloud {
+  color: #FCAF70;
+}
+
+.fa-heart {
+  color: #E0D9CF;
+}
+.fa-car {
+  color: #88E1E3;
+}
+.fa-file {
+  color: #C3A9BD;
+}
+
+.fa-bars {
+  color: #D7D6D2
+}
